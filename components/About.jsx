@@ -28,16 +28,15 @@ function About() {
         className="mt-4 dark:text-ctnSecondaryDark text-gray-300 text-[17px] w-full leading-[30px] flex flex-col justify-between gap-6"
       >
         <div>
-          Hello! I&apos;m Keshav Bajwa, a passionate web developer and problem
-          solver. Currently, I&apos;m the IGCSM Company as a Full Stack Developer Designation, and
-          I&apos;m pursuing a B. Tech in Computer Science and Engineering at
-          J.S. University Shikohabad in Uttar Pradesh 283135, India 
-          I&apos;m a software developer with experience
-          in TypeScript, TailwindCSS, and JavaScript. I specialize in frameworks
-          such as React, Node.js, Next.js, PHP, and ASP.NET. My
-          knowledge extends well-versed in web development.
-          <br className="sm:block hidden" />
-          Let&apos;s collaborate to bring your ideas to life!
+          Hello! I&apos;m Keshav Bajwa, a dedicated Full Stack Developer at IGCSM Company and a passionate problem solver.  
+          I am currently pursuing B.Tech in Computer Science and Engineering at J.S. University, Shikohabad, Uttar Pradesh, India.  
+
+          With expertise in web development, I specialize in Web Development, App, and Software Development, along with frameworks 
+          such as React, Node.js, Next.js, PHP, and ASP.NET. My experience spans both front-end and back-end technologies, enabling 
+          me to develop efficient and scalable applications.  
+
+          <br className="sm:block hidden" />  
+          Let&apos;s collaborate to transform your ideas into reality!
         </div>
         <div className="w-fit break-words">
           <Link
