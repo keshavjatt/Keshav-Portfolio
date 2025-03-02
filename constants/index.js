@@ -79,26 +79,21 @@ const technologies = {
       icon: "/assets/tech/javascript.svg",
       link: "https://262.ecma-international.org/",
     },
+    // {
+    //   name: "TypeScript",
+    //   icon: "/assets/tech/typescript.svg",
+    //   link: "https://www.typescriptlang.org/",
+    // },
     {
-      name: "TypeScript",
-      icon: "/assets/tech/typescript.svg",
-      link: "https://www.typescriptlang.org/",
+      name: "C#",
+      icon: "/assets/tech/csharp-new.png",
+      link: "https://learn.microsoft.com/en-us/dotnet/csharp/",
     },
-    {
-      name: "C",
-      icon: "/assets/tech/c.svg",
-      link: "https://en.cppreference.com/w/c",
-    },
-    {
-      name: "Java",
-      icon: "/assets/tech/java.svg",
-      link: "https://www.java.com/en/",
-    },
-    {
-      name: "Python",
-      icon: "/assets/tech/python.svg",
-      link: "https://www.python.org/",
-    },
+    // {
+    //   name: "Python",
+    //   icon: "/assets/tech/python.svg",
+    //   link: "https://www.python.org/",
+    // },
   ],
   frameworks: [
     {
@@ -117,9 +112,14 @@ const technologies = {
       link: "https://expressjs.com/",
     },
     {
-      name: "Flutter",
-      icon: "/assets/tech/flutter.svg",
-      link: "https://flutter.dev/",
+      name: "Expo",
+      icon: "/assets/tech/expo.png",
+      link: "https://expo.dev/",
+    },
+    {
+      name: "ASP.NET",
+      icon: "/assets/tech/asp.net.png",
+      link: "https://learn.microsoft.com/en-us/aspnet/web-forms/",
     },
   ],
   libraries: [
@@ -128,41 +128,41 @@ const technologies = {
       icon: "/assets/tech/react.svg",
       link: "https://react.dev/",
     },
-    {
-      name: "Three.js",
-      icon: "/assets/tech/threejs.svg",
-      link: "https://threejs.org/",
-    },
+    // {
+    //   name: "Three.js",
+    //   icon: "/assets/tech/threejs.svg",
+    //   link: "https://threejs.org/",
+    // },
     {
       name: "Styled-Components",
       icon: "/assets/tech/styled-components.png",
       link: "https://styled-components.com/",
     },
-    {
-      name: "Framer-motion",
-      icon: "/assets/tech/framer.svg",
-      link: "https://www.framer.com/motion/",
-    },
+    // {
+    //   name: "Framer-motion",
+    //   icon: "/assets/tech/framer.svg",
+    //   link: "https://www.framer.com/motion/",
+    // },
     {
       name: "Zustand",
       icon: "https://user-images.githubusercontent.com/958486/218346783-72be5ae3-b953-4dd7-b239-788a882fdad6.svg",
       link: "https://zustand-demo.pmnd.rs",
     },
-    {
-      name: "Redux/Redux-toolkit",
-      icon: "https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png",
-      link: "https://redux.js.org",
-    },
+    // {
+    //   name: "Redux/Redux-toolkit",
+    //   icon: "https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png",
+    //   link: "https://redux.js.org",
+    // },
     {
       name: "NextAuth.js",
       icon: "/assets/tech/nextauthjs.png",
       link: "https://next-auth.js.org/",
     },
-    {
-      name: "Prisma",
-      icon: "/assets/tech/prisma.svg",
-      link: "https://www.prisma.io/",
-    },
+    // {
+    //   name: "Prisma",
+    //   icon: "/assets/tech/prisma.svg",
+    //   link: "https://www.prisma.io/",
+    // },
   ],
   tools: [
     {
@@ -180,11 +180,11 @@ const technologies = {
       icon: "/assets/tech/postman.svg",
       link: "https://www.postman.com/",
     },
-    {
-      name: "Figma",
-      icon: "/assets/tech/figma.svg",
-      link: "https://www.figma.com/",
-    },
+    // {
+    //   name: "Figma",
+    //   icon: "/assets/tech/figma.svg",
+    //   link: "https://www.figma.com/",
+    // },
     {
       name: "Docker",
       icon: "/assets/tech/docker.svg",
@@ -196,6 +196,11 @@ const technologies = {
       name: "Node.js",
       icon: "/assets/tech/nodejs.svg",
       link: "https://nodejs.org/en",
+    },
+    {
+      name: "IIS",
+      icon: "/assets/tech/iss-new.png",
+      link: "https://learn.microsoft.com/en-us/iis/get-started/introduction-to-iis/iis-web-server-overview",
     },
   ],
   databases: [
@@ -237,8 +242,8 @@ const experiences = [
   //   ],
   // },
   {
-    title: "Indira Gandhi Computer Saksharta Mission",
-    company_name: "Web Developer",
+    title: "Web Developer",
+    company_name: "Indira Gandhi Computer Saksharta Mission",
     icon: "/assets/company/igcsm.png",
     iconBg: "#E6DEDD",
     date: "Present",
@@ -249,8 +254,8 @@ const experiences = [
     ],
   },
   {
-    title: "XSOL DATA SYSTEM PVT LTD",
-    company_name: "ASP.NET & Node.js Developer",
+    title: "ASP.NET & Node.js Developer",
+    company_name: "XSOL DATA SYSTEM PVT LTD",
     icon: "/assets/company/xsol.png",
     iconBg: "#E6DEDD",
     date: "May 2023 - August 2024",
