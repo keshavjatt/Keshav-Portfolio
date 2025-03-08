@@ -11,6 +11,7 @@ import FullStackIcon from "./../public/assets/icons/full-stack.svg";
 import bigcrmImg from "./../public/assets/projects/bigcrm-image.png"
 import cratorsFlameImg from "./../public/assets/projects/creatorsflame-image.png"
 import ecomImg from "./../public/assets/projects/e-commerce.png"
+import sgtuImg from "../public/assets/projects/SGTU-APK - Copy.png"
 
 const navLinks = [
   {
@@ -246,7 +247,7 @@ const experiences = [
     company_name: "Indira Gandhi Computer Saksharta Mission",
     icon: "/assets/company/igcsm.png",
     iconBg: "#E6DEDD",
-    date: "Present",
+    date: "August 2024 - Present",
     points: [
       "Developed Websites for ITI and Polytechnic Institutions, ensuring user-friendly design and responsive interfaces.",
       "Used MongoDB for efficient data storage and retrieval.",
@@ -317,7 +318,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "BIGCRM: Network Monitoring CRM",
+    name: "BIGCRM - Network Monitoring CRM",
     description:
       "Designed and developed a CRM Software that automates network monitoring and issue tracking using Ping Program Integration. Sends email notifications to the concerned user when an IP becomes unreachable.",
     tags: [
@@ -348,7 +349,37 @@ const projects = [
     deployed_link: "https://tfs.bigcrm.in/",
   },
   {
-    name: " Creators Flame: Landing Page Website",
+    name: "Student Application - SGTU",
+    description:
+      "Designed and developed the SGTU Mobile App for students, enabling Aadhaar-based login for secure authentication. The app allows students to view their results and mark sheets seamlessly. Implemented Sandbox API for Aadhaar verification.",
+    tags: [
+      {
+        name: "Expo",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Cloudinary",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: sgtuImg,
+    source_code_link: "https://github.com/keshavjatt/StudentApplication-SGTU",
+    deployed_link: "https://play.google.com/store/apps/details?id=com.dev_karan.sikkimglobaltechnicaluniversity&hl=en",
+  },
+  {
+    name: " Creators Flame - Landing Page Website",
     description:
       "Designed and developed a landing page website for Creators Flame using HTML, CSS, Bootstrap, and JavaScript. Implemented a yellow-themed UI as per the client's branding requirements. Integrated smooth video scrolling effects.",
     tags: [
@@ -378,135 +409,35 @@ const projects = [
     deployed_link: "https://www.creatorsflame.com/",
   },
   // {
-  //   name: "GDSC Website",
+  //   name: "E Commerce",
   //   description:
-  //     "Welcome to the official repository for the GDSC MVJCE Website, built with Next.js, Styled Components, and Prisma! This website serves as the central hub for all things tech-related at GDSC MVJCE. From insightful blog posts to incredible community projects, and from exciting tech events to getting to know our team, you'll find it all here.",
+  //     "This web application is developed using the MERN stack, which includes MongoDB for database management, Express.js for building the backend, React.js for creating an interactive user interface, and Node.js for handling server-side operations. It seamlessly integrates Stripe as a secure payment gateway, ensuring safe and efficient transactions. Additionally, Cloudinary is used for optimized image storage and management, allowing for fast and reliable media uploads.",
   //   tags: [
   //     {
-  //       name: "next.js",
+  //       name: "React.js",
   //       color: "blue-text-gradient",
   //     },
   //     {
-  //       name: "styled-components",
+  //       name: "Node.js",
   //       color: "green-text-gradient",
   //     },
   //     {
-  //       name: "three.js",
+  //       name: "MongoDB",
   //       color: "pink-text-gradient",
   //     },
   //     {
-  //       name: "prisma",
+  //       name: "Tailwind CSS",
   //       color: "orange-text-gradient",
   //     },
   //     {
-  //       name: "framer-motion",
+  //       name: "Cloudinary",
   //       color: "yellow-text-gradient",
   //     },
   //   ],
-  //   image: "/assets/projects/gdsc-website.png",
-  //   source_code_link: "https://github.com/GDSC-MVJCE/gdscmvjce-website.git",
-  //   deployed_link: "https://gdscmvjce.vercel.app/",
+  //   image: ecomImg,
+  //   source_code_link: "https://github.com/keshavjatt/E-Commerce",
+  //   deployed_link: "https://mern-ecommercewebsite.vercel.app/",
   // },
-  {
-    name: "E Commerce",
-    description:
-      "This web application is developed using the MERN stack, which includes MongoDB for database management, Express.js for building the backend, React.js for creating an interactive user interface, and Node.js for handling server-side operations. It seamlessly integrates Stripe as a secure payment gateway, ensuring safe and efficient transactions. Additionally, Cloudinary is used for optimized image storage and management, allowing for fast and reliable media uploads.",
-    tags: [
-      {
-        name: "React.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Node.js",
-        color: "green-text-gradient",
-      },
-      {
-        name: "MongoDB",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Tailwind CSS",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "Cloudinary",
-        color: "yellow-text-gradient",
-      },
-    ],
-    image: ecomImg,
-    source_code_link: "https://github.com/keshavjatt/E-Commerce",
-    deployed_link: "https://mern-ecommercewebsite.vercel.app/",
-  },
-  // {
-  //   name: "Netflix Clone",
-  //   description:
-  //     "Netflix-Clone is a fully responsive web application that replicates the popular streaming platform Netflix. It is built using Next.js, Prisma, React, NextAuth.js, Tailwind CSS, MongoDB and TypeScript. This project aims to showcase the implementation of these technologies to create a feature-rich clone of Netflix.",
-  //   tags: [
-  //     {
-  //       name: "next.js",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "typescript",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "tailwindcss",
-  //       color: "pink-text-gradient",
-  //     },
-  //     {
-  //       name: "mongodb",
-  //       color: "orange-text-gradient",
-  //     },
-  //   ],
-  //   image: "/assets/projects/netflix-clone.png",
-  //   source_code_link: "https://github.com/Shivam-Sharma-1/Netflix-Clone.git",
-  //   deployed_link: "https://netflix-clone12345.vercel.app",
-  // },
-  // {
-  //   name: "Van-Life",
-  //   description:
-  //     "VanLife is a user-friendly website built with React that simplifies van searches. It is a web app used to browse different types of vans. It allows users to log in and offers convenient tag-based filtering for easy browsing.",
-  //   tags: [
-  //     {
-  //       name: "react",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "mirage.js",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "firebase-firestore",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: "/assets/projects/vanlife.png",
-  //   source_code_link: "https://github.com/Shivam-Sharma-1/Van-Life.git",
-  //   deployed_link: "https://myvanlife.netlify.app",
-  // },
-  // {
-  // 	name: "Spooky-Run",
-  // 	description:
-  // 		"Spooky Run is a web based 2D arcade style game that allows players to play as a lost dog finding its way back home through a spooky forest. The game is built using vanilla JavaScript and utilizes HTML5 and the 'canvas' element to render graphics and handle user input.",
-  // 	tags: [
-  // 		{
-  // 			name: "html5",
-  // 			color: "blue-text-gradient"
-  // 		},
-  // 		{
-  // 			name: "css3",
-  // 			color: "green-text-gradient"
-  // 		},
-  // 		{
-  // 			name: "javascript",
-  // 			color: "pink-text-gradient"
-  // 		}
-  // 	],
-  // 	image: "/assets/projects/spooky-run.png",
-  // 	source_code_link: "https://github.com/Shivam-Sharma-1/Spooky-Run.git",
-  // 	deployed_link: "https://shivam-sharma-1.github.io/Spooky-Run"
-  // }
 ];
 
 const socials = [
