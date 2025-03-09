@@ -62,7 +62,7 @@ function About() {
           ))}
         </div>
         <Link
-          href="document/Keshav-CV.pdf"
+          href="document/Keshav Bajwa - CV.pdf"
           target="_blank"
           rel="noreferrer"
           className="w-fit"
