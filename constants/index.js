@@ -318,35 +318,34 @@ const testimonials = [
 
 const projects = [
   {
-    name: "BIGCRM - Network Monitoring CRM",
+    name: "E Commerce",
     description:
-      "Designed and developed a CRM Software that automates network monitoring and issue tracking using Ping Program Integration. Sends email notifications to the concerned user when an IP becomes unreachable.",
+      "This web application is developed using the MERN stack, which includes MongoDB for database management, Express.js for building the backend, React.js for creating an interactive user interface, and Node.js for handling server-side operations. It seamlessly integrates Stripe as a secure payment gateway, ensuring safe and efficient transactions. Additionally, Cloudinary is used for optimized image storage and management, allowing for fast and reliable media uploads.",
     tags: [
       {
-        name: "ASP.NET",
+        name: "React.js",
         color: "blue-text-gradient",
       },
       {
-        name: "MSSQL",
+        name: "Node.js",
         color: "green-text-gradient",
       },
       {
-        name: "Node.js",
+        name: "MongoDB",
         color: "pink-text-gradient",
       },
       {
-        name: "Chart.js",
+        name: "Tailwind CSS",
         color: "orange-text-gradient",
       },
       {
-        name: "Windows Web Server (IIS)",
+        name: "Cloudinary",
         color: "yellow-text-gradient",
       },
     ],
-    // image: "https://res.cloudinary.com/dqiqi75hm/image/upload/v1734187202/quickedit/dp6y8s8dstqfpq7svmj5.png",
-    image: bigcrmImg,
-    source_code_link: "https://github.com/keshavjatt/BIGCRM-API",
-    deployed_link: "https://tfs.bigcrm.in/",
+    image: ecomImg,
+    source_code_link: "https://github.com/keshavjatt/E-Commerce",
+    deployed_link: "https://mern-ecommercewebsite.vercel.app/",
   },
   {
     name: "Student Application - SGTU",
@@ -409,35 +408,36 @@ const projects = [
     deployed_link: "https://www.creatorsflame.com/",
   },
   // {
-  //   name: "E Commerce",
+  //   name: "BIGCRM - Network Monitoring CRM",
   //   description:
-  //     "This web application is developed using the MERN stack, which includes MongoDB for database management, Express.js for building the backend, React.js for creating an interactive user interface, and Node.js for handling server-side operations. It seamlessly integrates Stripe as a secure payment gateway, ensuring safe and efficient transactions. Additionally, Cloudinary is used for optimized image storage and management, allowing for fast and reliable media uploads.",
+  //     "Designed and developed a CRM Software that automates network monitoring and issue tracking using Ping Program Integration. Sends email notifications to the concerned user when an IP becomes unreachable.",
   //   tags: [
   //     {
-  //       name: "React.js",
+  //       name: "ASP.NET",
   //       color: "blue-text-gradient",
   //     },
   //     {
-  //       name: "Node.js",
+  //       name: "MSSQL",
   //       color: "green-text-gradient",
   //     },
   //     {
-  //       name: "MongoDB",
+  //       name: "Node.js",
   //       color: "pink-text-gradient",
   //     },
   //     {
-  //       name: "Tailwind CSS",
+  //       name: "Chart.js",
   //       color: "orange-text-gradient",
   //     },
   //     {
-  //       name: "Cloudinary",
+  //       name: "Windows Web Server (IIS)",
   //       color: "yellow-text-gradient",
   //     },
   //   ],
-  //   image: ecomImg,
-  //   source_code_link: "https://github.com/keshavjatt/E-Commerce",
-  //   deployed_link: "https://mern-ecommercewebsite.vercel.app/",
-  // },
+  //   // image: "https://res.cloudinary.com/dqiqi75hm/image/upload/v1734187202/quickedit/dp6y8s8dstqfpq7svmj5.png",
+  //   image: bigcrmImg,
+  //   source_code_link: "https://github.com/keshavjatt/BIGCRM-API",
+  //   deployed_link: "https://tfs.bigcrm.in/",
+  // }
 ];
 
 const socials = [
