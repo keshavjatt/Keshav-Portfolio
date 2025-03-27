@@ -345,7 +345,7 @@ const projects = [
     ],
     image: ecomImg,
     source_code_link: "https://github.com/keshavjatt/E-Commerce",
-    deployed_link: "https://mern-ecommercewebsite.vercel.app/",
+    deployed_link: "https://online-shhhoppping.vercel.app/",
   },
   {
     name: "Student Application - SGTU",
