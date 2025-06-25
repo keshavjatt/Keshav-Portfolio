@@ -247,7 +247,7 @@ const experiences = [
     company_name: "Indira Gandhi Computer Saksharta Mission",
     icon: "/assets/company/igcsm.png",
     iconBg: "#E6DEDD",
-    date: "August 2024 - Present",
+    date: "August 2024 - June 2025",
     points: [
       "Developed Websites for ITI and Polytechnic Institutions, ensuring user-friendly design and responsive interfaces.",
       "Used MongoDB for efficient data storage and retrieval.",
